@@ -9,7 +9,7 @@ __filter = []
 FILTER = list(map(lambda x:x.lower(),__filter))
 
 # 需要选择的文件，后缀名作为标识
-__select = ['.py']
+__select = []
 SELECT = list(map(lambda x:x.lower(),__select))
 
 '''
