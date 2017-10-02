@@ -64,6 +64,7 @@ class Filetree(Load):
             else:
                 print(path+'/')
             if len(os.listdir(path))==0: # 考虑到子目录是空目录的情况
+                print("debug")
                 return
 
         if len(os.listdir(path))==0: # 当文件夹是空目录的时候
