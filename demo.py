@@ -5,7 +5,13 @@ except:
 
 
 if __name__=='__main__':
+    print(__file__)
+    
     shower = Filetree()
+
+    shower.set_root('.')
+    shower.show()
+
     shower.set_root('test')
     shower.show()
 
